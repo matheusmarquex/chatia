@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+:root {
+    font-size: 62.5%; /*1rem = 10px */
+}
+body {
+    background-color: #1A1924;
+    font-size: 1.6rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.App{
+    padding: 2.4rem 3.2rem;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+}
